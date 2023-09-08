@@ -1,0 +1,10 @@
+{
+    "Lua.diagnostics.globals": [
+        "minetest",
+        "rp_analysis_gui",
+        "flow",
+        "rp_analysis",
+        "rp_core",
+        "rp_nodes"
+    ]
+}
