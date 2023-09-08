@@ -5,6 +5,7 @@
         "flow",
         "rp_analysis",
         "rp_core",
-        "rp_nodes"
+        "rp_nodes",
+        "random_messages_api"
     ]
 }

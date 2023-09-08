@@ -4,3 +4,4 @@ Nodes=
 Players=
 Node Analysis=
 Player Analysis=
+Use /anal_gui to view analysis in GUI.=

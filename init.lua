@@ -235,3 +235,7 @@ minetest.register_chatcommand("anal_gui", {
         return true
     end
 })
+
+if minetest.global_exists("random_messages_api") then
+    random_messages_api.register_message(S("Use /anal_gui to view analysis in GUI."))
+end

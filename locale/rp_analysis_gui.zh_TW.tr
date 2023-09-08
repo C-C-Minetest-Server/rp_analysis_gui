@@ -4,3 +4,4 @@ Nodes=方塊
 Players=玩家
 Node Analysis=方塊分析
 Player Analysis=玩家分析
+Use /anal_gui to view analysis in GUI.=使用 /anal_gui 以在圖形界面查看分析。
