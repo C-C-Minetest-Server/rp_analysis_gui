@@ -1,0 +1,6 @@
+# textdomain: rp_analysis_gui
+rPlace Analysis=
+Nodes=
+Players=
+Node Analysis=
+Player Analysis=

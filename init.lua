@@ -73,7 +73,7 @@ rp_analysis_gui.gui = flow.make_gui(function(player, ctx)
                         align_h = "center",
                     },
                     gui.Label {
-                        label = S("Nodes"),
+                        label = S("Players"),
                         w = 3, align_h = "center",
                     },
                 },
