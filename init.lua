@@ -194,10 +194,8 @@ rp_analysis_gui.gui = flow.make_gui(function(player, ctx)
                 }
             }
         end
-        list[#list + 1] = gui.Label {
-            label = minetest.translate("rp_analysis", "Total: @1", rp_core.area_size),
-            expand = true, align_h = "right",
-        }
+        list.name = "svb_player"
+        list.h = 10
 
         return gui.VBox {
             w = 12,
@@ -218,7 +216,11 @@ rp_analysis_gui.gui = flow.make_gui(function(player, ctx)
                 }
             },
             gui.Box {w = 1, h = 0.05, color = "grey"},
-            gui.VBox(list)
+            gui.ScrollableVBox(list),
+            gui.Label {
+                label = minetest.translate("rp_analysis", "Total: @1", rp_core.area_size),
+                expand = true, align_h = "right",
+            }
         }
     else
         return gui.Nil{}
